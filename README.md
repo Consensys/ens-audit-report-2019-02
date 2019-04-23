@@ -151,21 +151,21 @@ The following table contains all the issues discovered during the audit. The iss
 
 | Chapter | Issue Title  | Issue Status | Severity |
 | ------------- | ------------- | ------------- | ------------- |
- | 2.1 | [Memory corruption in `Buffer`](#31-memory-corruption-in-buffer) |  Closed |  Critical | 
- | 2.2 | [`SimplePriceOracle.price` is susceptible to integer overflow](#32-simplepriceoracleprice-is-susceptible-to-integer-overflow) |  Closed |  Critical | 
- | 2.3 | [`ETHRegistrarController.register` is vulnerable to front running](#33-ethregistrarcontrollerregister-is-vulnerable-to-front-running) |  Closed |  Critical | 
- | 2.4 | [SOA record check on the wrong domain](#34-soa-record-check-on-the-wrong-domain) |  Closed |  Major | 
- | 2.5 | [Work towards a trustless model for ENS](#35-work-towards-a-trustless-model-for-ens) |  Closed |  Medium | 
- | 2.6 | [Consider replacing the `Buffer` implementation](#36-consider-replacing-the-buffer-implementation) |  Closed |  Medium | 
- | 2.7 | [Overzealous resizing in `Buffer`](#37-overzealous-resizing-in-buffer) |  Closed |  Medium | 
- | 2.8 | [Pending auctions in the legacy registrar don't result in proper ownership in ENS](#38-pending-auctions-in-the-legacy-registrar-dont-result-in-proper-ownership-in-ens) |  Closed |  Medium | 
- | 2.9 | [`BaseRegistrarImplementation.acceptRegistrarTransfer` should probably use the `live` modifier](#39-baseregistrarimplementationacceptregistrartransfer-should-probably-use-the-live-modifier) |  Closed |  Medium | 
- | 2.10 | [Reconsider use of inline assembly in `BytesUtils.sol`](#310-reconsider-use-of-inline-assembly-in-bytesutilssol) |  Closed |  Minor | 
- | 2.11 | [`BaseRegistrarImplementation.acceptRegistrarTransfer` does not check for invalid names](#311-baseregistrarimplementationacceptregistrartransfer-does-not-check-for-invalid-names) |  Closed |  Minor | 
- | 2.12 | [Sanity check around `transferPeriodEnds`](#312-sanity-check-around-transferperiodends) |  Closed |  Minor | 
- | 2.13 | [`StablePriceOracle.price` has an unimportant integer underflow](#313-stablepriceoracleprice-has-an-unimportant-integer-underflow) |  Closed |  Minor | 
- | 2.14 | [`ETHRegistrarController.register` should  `revert` rather than silently fail](#314-ethregistrarcontrollerregister-should--revert-rather-than-silently-fail) |  Closed |  Minor | 
- | 2.15 | [`StringUtils.strlen` could be rewritten without assembly](#315-stringutilsstrlen-could-be-rewritten-without-assembly) |  Closed |  Minor | 
+ | 3.1 | [Memory corruption in `Buffer`](#31-memory-corruption-in-buffer) |  Closed |  Critical | 
+ | 3.2 | [`SimplePriceOracle.price` is susceptible to integer overflow](#32-simplepriceoracleprice-is-susceptible-to-integer-overflow) |  Closed |  Critical | 
+ | 3.3 | [`ETHRegistrarController.register` is vulnerable to front running](#33-ethregistrarcontrollerregister-is-vulnerable-to-front-running) |  Closed |  Critical | 
+ | 3.4 | [SOA record check on the wrong domain](#34-soa-record-check-on-the-wrong-domain) |  Closed |  Major | 
+ | 3.5 | [Work towards a trustless model for ENS](#35-work-towards-a-trustless-model-for-ens) |  Closed |  Medium | 
+ | 3.6 | [Consider replacing the `Buffer` implementation](#36-consider-replacing-the-buffer-implementation) |  Closed |  Medium | 
+ | 3.7 | [Overzealous resizing in `Buffer`](#37-overzealous-resizing-in-buffer) |  Closed |  Medium | 
+ | 3.8 | [Pending auctions in the legacy registrar don't result in proper ownership in ENS](#38-pending-auctions-in-the-legacy-registrar-dont-result-in-proper-ownership-in-ens) |  Closed |  Medium | 
+ | 3.9 | [`BaseRegistrarImplementation.acceptRegistrarTransfer` should probably use the `live` modifier](#39-baseregistrarimplementationacceptregistrartransfer-should-probably-use-the-live-modifier) |  Closed |  Medium | 
+ | 3.10 | [Reconsider use of inline assembly in `BytesUtils.sol`](#310-reconsider-use-of-inline-assembly-in-bytesutilssol) |  Closed |  Minor | 
+ | 3.11 | [`BaseRegistrarImplementation.acceptRegistrarTransfer` does not check for invalid names](#311-baseregistrarimplementationacceptregistrartransfer-does-not-check-for-invalid-names) |  Closed |  Minor | 
+ | 3.12 | [Sanity check around `transferPeriodEnds`](#312-sanity-check-around-transferperiodends) |  Closed |  Minor | 
+ | 3.13 | [`StablePriceOracle.price` has an unimportant integer underflow](#313-stablepriceoracleprice-has-an-unimportant-integer-underflow) |  Closed |  Minor | 
+ | 3.14 | [`ETHRegistrarController.register` should  `revert` rather than silently fail](#314-ethregistrarcontrollerregister-should--revert-rather-than-silently-fail) |  Closed |  Minor | 
+ | 3.15 | [`StringUtils.strlen` could be rewritten without assembly](#315-stringutilsstrlen-could-be-rewritten-without-assembly) |  Closed |  Minor | 
 
 
 
