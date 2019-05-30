@@ -1,5 +1,12 @@
 # _ENS Permanent Registrar_ Audit
 
+## Update [2019-05-29]
+
+In addition to the results below, ConsenSys Diligence also audited an [updated `Root` contract](https://github.com/ensdomains/root/blob/646a10cba68f38df4d72f4823be010724ec6829a/contracts/Root.sol) with the SHA1 hash `42d807dc438b978b7ddfd7a0c030cf6140bd49d6`.
+
+No new issues were found.
+
+---
 
 <img height="100px" Hspace="30" Vspace="10" align="right" src="static-content/diligence.png"/>
 
@@ -102,6 +109,7 @@ The following documentation was available to the audit team:
 * This [Documentation](https://docs.ens.domains/contract-api-reference/.eth-permanent-registrar) with description about the mechanism of the `.eth Permanent Registrar` and `ETHRegistrarController`.
 
 #### Scope
+
 The audit focus was on the smart contract files, and test suites found in the following repositories of the [ensdomains](https://github.com/ensdomains/) GitHub organization:
 
 |  Directory | Commit hash | Commit date |
